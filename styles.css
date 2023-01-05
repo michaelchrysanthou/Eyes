@@ -1,0 +1,71 @@
+/* Page Styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #14495e;
+  }
+
+  h1{
+
+    font-family: 'East Sea Dokdo', cursive;
+    text-align: center;
+    font-size: 100px;
+  }
+
+  nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+  }
+  
+  nav ul li{
+  
+    list-style-type: none;
+    display: inline-block;
+    font-size: 100px;
+    
+  }
+  
+  nav ul li a{
+  
+    color: black;
+    text-decoration: none;
+    padding: 10px 200px;
+  
+  }
+
+  /* Eyes Styling */
+  
+  .eyes {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
+  .eye {
+    width: 240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  .ball {
+    width: 80px;
+    height: 80px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }

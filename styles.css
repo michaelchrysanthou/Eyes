@@ -6,38 +6,16 @@ body {
     background: #14495e;
   }
 
+  .title{
+
+    width: 1700px;
+  }
+
   h1{
 
     font-family: 'East Sea Dokdo', cursive;
     text-align: center;
     font-size: 100px;
-  }
-
-  nav{
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
-    
-  }
-  
-  nav ul li{
-  
-    list-style-type: none;
-    display: inline-block;
-    font-size: 100px;
-    
-  }
-  
-  nav ul li a{
-  
-    color: black;
-    text-decoration: none;
-    padding: 10px 200px;
-  
   }
 
   /* Eyes Styling */
@@ -46,7 +24,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 100%;
+    width: 2000px;
     text-align: center;
   }
   .eye {
@@ -59,6 +37,7 @@ body {
     position: relative;
     overflow: hidden;
   }
+
   .ball {
     width: 80px;
     height: 80px;
@@ -69,3 +48,39 @@ body {
     transform: translate(-50%, -50%);
     border-radius: 50%;
   }
+
+  .eye-container{
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1350px;
+    text-align: center;
+
+  }
+
+  .eye-shape{
+
+    width: 240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .eye-ball{
+
+  width: 80px;
+  height: 80px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+
+}

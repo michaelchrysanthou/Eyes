@@ -1,14 +1,14 @@
 /* Page Styling */
 
-body {
+/* body {
     margin: 0;
     padding: 0;
     background: #14495e;
-  }
+  }*/
 
   .title{
 
-    width: 1700px;
+    width: 1970px;
   }
 
   h1{
@@ -20,15 +20,15 @@ body {
 
   /* Eyes Styling */
   
-  .eyes {
-    position: absolute;
-    top: 50%;
+  .eyes-right {
+    position: fixed;
+    top: 40%;
     transform: translateY(-50%);
-    width: 2000px;
+    width: 2300px;
     text-align: center;
   }
-  .eye {
-    width: 240px;
+  .eye-right {
+    width: 200px;
     height: 120px;
     background: #fff;
     display: inline-block;
@@ -38,7 +38,7 @@ body {
     overflow: hidden;
   }
 
-  .ball {
+  .ball-right {
     width: 80px;
     height: 80px;
     background: #000;
@@ -49,19 +49,19 @@ body {
     border-radius: 50%;
   }
 
-  .eye-container{
+  .eyes-left{
 
-    position: absolute;
-    top: 50%;
+    position: fixed;
+    top: 40%;
     transform: translateY(-50%);
-    width: 1350px;
+    width: 1720px;
     text-align: center;
 
   }
 
-  .eye-shape{
+  .eye-left{
 
-    width: 240px;
+    width: 200px;
     height: 120px;
     background: #fff;
     display: inline-block;
@@ -72,7 +72,7 @@ body {
 
   }
 
-  .eye-ball{
+  .ball-left{
 
   width: 80px;
   height: 80px;
@@ -82,5 +82,23 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
+
+}
+
+/* Other Styling */
+
+.cat{
+
+  position: absolute;
+  top: -50px;
+  left: 205px;
+  
+
+}
+
+.main{
+  background-image: url('images/bg9.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
